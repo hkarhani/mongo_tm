@@ -4,7 +4,7 @@ services:
         image: 'mongo'
         container_name: 'mongo_container'
         environment:
-            - MONGO_INITDB_DATABASE=testing
+            - MONGO_INITDB_DATABASE=db_name
             - MONGO_INITDB_ROOT_USERNAME=user
             - MONGO_INITDB_ROOT_PASSWORD=pass
         volumes:

@@ -1,10 +1,10 @@
 db.createUser({
-	user: "lab",
-	pwd: "lab123",
+	user: "user",
+	pwd: "pass",
 	roles: [
 		{
 			role: "readWrite",
-			db: "TradingModels"
+			db: "db_name"
 		}
 	]
 })
